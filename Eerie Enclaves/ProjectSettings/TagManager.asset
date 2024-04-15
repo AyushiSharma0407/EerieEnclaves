@@ -8,6 +8,8 @@ TagManager:
   - Wood
   - Tile
   - Carpet
+  - FxTemporaire
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -126,7 +126,10 @@ public class EnemyController : MonoBehaviour
     // Draw a green raycast line at all times and switch to red when the player is detected.
     private void OnDrawGizmos()
     {
+        if(player != null)
+    {
         Gizmos.color = currentState == EnemyState.Chase ? Color.red : Color.green;
         Gizmos.DrawLine(transform.position, player.position);
+    }
     }
 }
