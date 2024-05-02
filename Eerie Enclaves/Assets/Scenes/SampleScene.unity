@@ -795,7 +795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCam: {fileID: 690162851}
   walkSpeed: 5
-  runSpeed: 6
+  runSpeed: 7
   jumpPower: 0
   gravity: 10
   lookSpeed: 2
@@ -1699,8 +1699,8 @@ MonoBehaviour:
   - {fileID: 1624242112}
   - {fileID: 1101492452}
   idleTime: 4
-  walkSpeed: 3
-  chaseSpeed: 4.5
+  walkSpeed: 1
+  chaseSpeed: 2
   sightDistance: 30
   idleSound: {fileID: 8300000, guid: 727cc9b5b68ce4a4da1968c42eda6842, type: 3}
   walkingSound: {fileID: 8300000, guid: 727cc9b5b68ce4a4da1968c42eda6842, type: 3}
@@ -7402,7 +7402,7 @@ MonoBehaviour:
   impactEffect: {fileID: 19800002, guid: 99c73c92ac40473459640b165473206f, type: 3}
   currentAmmoInMag: 0
   currentAmmoInStorage: 0
-  damager: 15
+  damager: 50
   canShoot: 1
   canSwitch: 1
   cartridgeEjectionPoint: {fileID: 1951422596}
