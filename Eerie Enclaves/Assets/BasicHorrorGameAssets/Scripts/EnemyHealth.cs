@@ -4,6 +4,7 @@ public class EnemyHealth : MonoBehaviour
 {
     public int maxHealth = 100; // Maximum health of the enemy.
     private int currentHealth; // Current health of the enemy.
+    public int enemiesDied=0;
 
     // Called when the enemy is initialized.
     private void Start()
@@ -20,7 +21,8 @@ public class EnemyHealth : MonoBehaviour
         // Check if the enemy's health has reached zero or below.
         if (currentHealth <= 0)
         {
-            Die(); // Call the function to handle the enemy's death.
+            Die();
+            enemiesDied++; // Call the function to handle the enemy's death.
         }
     }
 
